@@ -2,7 +2,7 @@
 
 Hey there! :smile: 
 
-![](https://komarev.com/ghpvc/?username=hiccupsoft&label=PROFILE+VIEWS&color=brightgreen)
+![](https://komarev.com/ghpvc/?username=pvrego&label=PROFILE+VIEWS&color=brightgreen)
 
 <img src="https://github-readme-stats.vercel.app/api?username=pvrego&show_icons=true&count_private=true" alt="hiccupsoft" />
 
