@@ -14,18 +14,6 @@ Hi, I’m **Pablo Rego** — Senior Software & Systems Engineer with 25+ years o
 
 ---
 
-## 📊 GitHub Stats  
-
-![](https://komarev.com/ghpvc/?username=pvrego&label=PROFILE+VIEWS&color=brightgreen)  
-
-<img src="https://github-readme-stats.vercel.app/api?username=pvrego&show_icons=true&count_private=true&theme=radical" alt="pvrego stats" />  
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pvrego&layout=compact&theme=radical" alt="top langs" />  
-
-[![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=pvrego&theme=react-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)  
-
----
-
 ## 🏛️ Organization: [regodefies](https://github.com/regodefies)  
 
 Here I share projects focused on:  
@@ -43,3 +31,14 @@ Check out the pinned repositories to explore ongoing and released projects.
 - 📰 [Coffee, Codex, Cortex Newsletter](https://www.linkedin.com/newsletters/coffee-codex-cortex-6904783346359246848)  
 - 📱 [Resus App on Google Play](https://play.google.com/store/apps/details?id=com.quantingo.resus)  
 
+---
+
+## 📊 GitHub Stats  
+
+![](https://komarev.com/ghpvc/?username=pvrego&label=PROFILE+VIEWS&color=brightgreen)  
+
+<img src="https://github-readme-stats.vercel.app/api?username=pvrego&show_icons=true&count_private=true&theme=radical" alt="pvrego stats" />  
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pvrego&layout=compact&theme=radical" alt="top langs" />  
+
+[![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=pvrego&theme=react-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)  
