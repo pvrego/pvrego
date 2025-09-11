@@ -40,5 +40,6 @@ Check out the pinned repositories to explore ongoing and released projects.
 <img src="https://github-readme-stats.vercel.app/api?username=pvrego&show_icons=true&count_private=true&theme=radical" alt="pvrego stats" />  
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pvrego&layout=compact&theme=radical" alt="top langs" />  
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=regodefies&layout=compact&theme=radical" alt="regodefies top langs" /> 
 
 [![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=pvrego&theme=react-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)  
