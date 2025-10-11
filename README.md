@@ -14,7 +14,13 @@ Hi, I’m **Pablo Rego** — Senior Software & Systems Engineer with 25+ years o
 - Founder & Chief Architect **@ Quantingo** — Developed innovative software solutions, such as [Resus App](https://play.google.com/store/apps/details?id=com.quantingo.resus).
 
 ---
+## 🌐 Connect  
 
+- 💼 [LinkedIn](https://www.linkedin.com/in/pablorego/)  
+- 📰 [Coffee, Codex, Cortex Newsletter](https://www.linkedin.com/newsletters/coffee-codex-cortex-6904783346359246848)  
+- 📱 [Resus App on Google Play](https://play.google.com/store/apps/details?id=com.quantingo.resus)  
+
+---
 ## 🏛️ Organization: [regodefies](https://github.com/regodefies)  
 
 Here I share projects focused on:  
@@ -24,15 +30,29 @@ Here I share projects focused on:
 
 Check out the pinned repositories to explore ongoing and released projects.  
 
+### 🚀 Featured Projects  
+
+<a href="https://github.com/RegoDefies/Rag-MusicPrompt">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=Rag-MusicPrompt&theme=radical" />
+</a>
+<a href="https://github.com/RegoDefies/SmartContracts-Commons">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=SmartContracts-Commons&theme=radical" />
+</a>
+<a href="https://github.com/regodefies/rag-cardio">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=rag-cardio&theme=radical" />
+</a>
+<a href="https://github.com/regodefies/bibtex-extraction">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=bibtex-extraction&theme=radical" />
+</a>
+<a href="https://github.com/RegoDefies/WaveformSeekBar">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=WaveformSeekBar&theme=radical" />
+</a>
+<a href="https://github.com/RegoDefies/Coffee-Codex-Cortex-pub">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=Coffee-Codex-Cortex-pub&theme=moltack" />
+</a>
+
 ---
 
-## 🌐 Connect  
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/pablorego/)  
-- 📰 [Coffee, Codex, Cortex Newsletter](https://www.linkedin.com/newsletters/coffee-codex-cortex-6904783346359246848)  
-- 📱 [Resus App on Google Play](https://play.google.com/store/apps/details?id=com.quantingo.resus)  
-
----
 
 ## 📊 GitHub Stats  
 
