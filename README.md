@@ -33,22 +33,22 @@ Check out the pinned repositories to explore ongoing and released projects.
 ### 🚀 Featured Projects  
 
 <a href="https://github.com/RegoDefies/Rag-MusicPrompt">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=Rag-MusicPrompt&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=Rag-MusicPrompt&theme=monokai" />
 </a>
 <a href="https://github.com/RegoDefies/SmartContracts-Commons">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=SmartContracts-Commons&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=SmartContracts-Commons&theme=monokai" />
 </a>
 <a href="https://github.com/regodefies/rag-cardio">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=rag-cardio&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=rag-cardio&theme=monokai" />
 </a>
 <a href="https://github.com/regodefies/bibtex-extraction">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=bibtex-extraction&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=bibtex-extraction&theme=monokai" />
 </a>
 <a href="https://github.com/RegoDefies/WaveformSeekBar">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=WaveformSeekBar&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=WaveformSeekBar&theme=monokai" />
 </a>
 <a href="https://github.com/RegoDefies/Coffee-Codex-Cortex-pub">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=Coffee-Codex-Cortex-pub&theme=moltack" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=Coffee-Codex-Cortex-pub&theme=monokai" />
 </a>
 
 ---
