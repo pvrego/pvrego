@@ -7,10 +7,11 @@ Hi, I’m **Pablo Rego** — Senior Software & Systems Engineer with 25+ years o
 - 🩺 **Medical technology** (simulation, patient monitoring, diagnostic platforms)  
 
 🚀 Career highlights:  
-- Scientific Advisor **@ Halliburton** (7+ yrs) — advanced instrumentation & nuclear/acoustic profiling.  
-- Product Development Engineer **@ Embraer** — aerospace and defense-grade systems.  
-- **28 patents** spanning applied physics (nuclear, acoustics, electronics), AI/ML, and high-integrity software systems for critical industries.  
-- Founder of **Quantingo** — building healthcare simulation tools such as [Resus App](https://play.google.com/store/apps/details?id=com.quantingo.resus).  
+- Scientific Advisor **@ Halliburton** (7 yrs) — Led the architecture and R&D of nuclear/acoustic instrumentation and real-time processing systems.
+- Product Development Engineer **@ Embraer** (10 yrs) — Aerospace and defense-grade systems development.
+- 28 patents spanning applied physics (nuclear, acoustics, electronics), AI/ML, and high-integrity software systems for critical industries.
+- Professor of Smart Contracts **@ PUC Minas** — Bridging academic and industry blockchain applications.
+- Founder & Chief Architect **@ Quantingo** — Developed innovative software solutions, such as [Resus App](https://play.google.com/store/apps/details?id=com.quantingo.resus).
 
 ---
 
