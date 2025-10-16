@@ -30,6 +30,12 @@ Here I share projects focused on:
 
 Check out the pinned repositories to explore ongoing and released projects.  
 
+### 📱 Published on Google Play
+
+<!-- BEGIN:GOOGLEPLAY_CARDS -->
+_Atualizando cards..._
+<!-- END:GOOGLEPLAY_CARDS -->
+
 ### 🚀 Featured Projects  
 
 <a href="https://github.com/RegoDefies/Rag-MusicPrompt">
