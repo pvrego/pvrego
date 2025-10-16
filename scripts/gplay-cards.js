@@ -20,15 +20,15 @@ const APPS = [
   }
 ];
 
-const CARDS_DIR = "cards";
 const README = "README.md";
 const BEGIN = "<!-- BEGIN:GOOGLEPLAY_CARDS -->";
 const END = "<!-- END:GOOGLEPLAY_CARDS -->";
 
-async function toDataUri(url) {
-  // baixa o ícone e converte para base64 embutido no SVG
+async function fetchIconBase64(url) {
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`Failed to fetch icon: ${url}`);
+  if (!res.ok) {
+    throw new Error(`Failed to fetch icon: ${url}`);
+  }
   const buf = Buffer.from(await res.arrayBuffer());
   const ct = res.headers.get("content-type") || "image/png";
   return `data:${ct};base64,${buf.toString("base64")}`;
@@ -42,15 +42,13 @@ function sanitize(text) {
 
 function shorten(text, n = 90) {
   text = sanitize(text);
-  return text.length <= n ? text : text.slice(0, n - 1) + "…";
+  if (text.length <= n) return text;
+  return text.slice(0, n - 1) + "…";
 }
 
-function svgCard({ title, summary, rating, installs, iconDataUri, accent, link }) {
-  // estilo inspirado no github-readme-stats (fundo escuro, tipografia simples)
-  return `
-<a href="${link}">
-  <img src="data:image/svg+xml;utf8,${encodeURIComponent(`
-<svg xmlns='http://www.w3.org/2000/svg' width='495' height='130' role='img'>
+function svgCard({ title, summary, rating, installs, iconBase64, accent, link }) {
+  const svg = `
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="130" role="img">
   <defs>
     <style>
       .card { fill: #1a1b27; }
@@ -60,58 +58,56 @@ function svgCard({ title, summary, rating, installs, iconDataUri, accent, link }
       .border { fill: none; stroke: #30363d; stroke-width: 1; rx: 6; ry: 6; }
     </style>
   </defs>
-  <rect class='card' x='0.5' y='0.5' rx='6' ry='6' width='494' height='129' />
-  <rect class='border' x='0.5' y='0.5' width='494' height='129' rx='6' ry='6'/>
-  <image href='${iconDataUri}' x='18' y='18' width='64' height='64' />
-  <g transform='translate(100, 28)'>
-    <text class='title'>${title}</text>
+  <rect class="card" x="0.5" y="0.5" rx="6" ry="6" width="494" height="129" />
+  <rect class="border" x="0.5" y="0.5" width="494" height="129" rx="6" ry="6" />
+  <image href="${iconBase64}" x="18" y="18" width="64" height="64" />
+  <g transform="translate(100, 28)">
+    <text class="title">${title}</text>
   </g>
-  <g transform='translate(100, 52)'>
-    <text class='desc'>${summary}</text>
+  <g transform="translate(100, 52)">
+    <text class="desc">${summary}</text>
   </g>
-  <g transform='translate(100, 80)'>
-    <text class='meta'>★ ${rating ?? "—"} · ${installs ?? "—"} installs · Google Play</text>
+  <g transform="translate(100, 80)">
+    <text class="meta">★ ${rating ?? "—"} · ${installs ?? "—"} installs · Google Play</text>
   </g>
 </svg>
-  `)}" alt="${title} – Google Play card" />
-</a>`.trim();
+`.trim();
+
+  const b64 = Buffer.from(svg).toString("base64");
+  const imgSrc = `data:image/svg+xml;base64,${b64}`;
+
+  return `<a href="${link}"><img src="${imgSrc}" alt="${title} – Google Play card" /></a>`;
 }
 
 async function generate() {
-  await fs.mkdir(CARDS_DIR, { recursive: true });
   const cards = [];
 
   for (const app of APPS) {
     try {
       const data = await gplay.app({ appId: app.id, country: "us", lang: "en" });
-      const icon = await toDataUri(data.icon);
+      const iconBase64 = await fetchIconBase64(data.icon);
       const card = svgCard({
         title: sanitize(data.title),
         summary: shorten(data.summary || data.description),
         rating: data.score ? data.score.toFixed(1) : null,
         installs: data.installs,
-        iconDataUri: icon,
+        iconBase64,
         accent: app.accent,
         link: app.link
       });
-
-      const file = path.join(CARDS_DIR, `${app.id}.svg.md`);
-      await fs.writeFile(file, card, "utf8");
       cards.push(card);
     } catch (e) {
-      console.error(`Erro no app ${app.id}:`, e.message);
+      console.error(`Error for app ${app.id}:`, e);
     }
   }
 
-  // Monta a seção final (cada card numa linha)
   const block = cards.join("\n\n");
 
-  // Atualiza o README entre os marcadores
   const readme = await fs.readFile(README, "utf8");
   const start = readme.indexOf(BEGIN);
   const end = readme.indexOf(END);
   if (start === -1 || end === -1 || end < start) {
-    throw new Error("Marcadores BEGIN/END não encontrados no README.md");
+    throw new Error("BEGIN/END markers not found in README.md");
   }
   const before = readme.slice(0, start + BEGIN.length);
   const after = readme.slice(end);
@@ -119,7 +115,7 @@ async function generate() {
   await fs.writeFile(README, updated, "utf8");
 }
 
-generate().catch(err => {
+generate().catch((err) => {
   console.error(err);
   process.exit(1);
 });
