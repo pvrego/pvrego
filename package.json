@@ -1,0 +1,15 @@
+{
+  "name": "pvrego",
+  "version": "1.0.0",
+  "description": "Hi, I’m **Pablo Rego** — Senior Software & Systems Engineer with 25+ years of experience in:   - 🖥️ **Embedded & Real-Time Systems** (C, C++, RTOS, instrumentation)   - 🤖 **Data Science & Applied AI/ML** (Python, predictive models, optimization, RAG systems)   - 🔗 **Blockchain & Web3 applications**   - 🩺 **Medical technology** (simulation, patient monitoring, diagnostic platforms)",
+  "main": "generate-cards.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  }
+}
