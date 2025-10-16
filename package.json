@@ -6,6 +6,6 @@
     "gen": "node scripts/gplay-cards.js"
   },
   "dependencies": {
-    "google-play-scraper": "^10.3.0"
+    "google-play-scraper": "^10.2.1"
   }
 }
