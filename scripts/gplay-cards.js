@@ -23,6 +23,7 @@ const APPS = [
 const README = "README.md";
 const BEGIN = "<!-- BEGIN:GOOGLEPLAY_CARDS -->";
 const END = "<!-- END:GOOGLEPLAY_CARDS -->";
+const CARDS_DIR = "cards";
 
 async function fetchIconBase64(url) {
   const res = await fetch(url);
@@ -46,8 +47,18 @@ function shorten(text, n = 90) {
   return text.slice(0, n - 1) + "…";
 }
 
-function svgCard({ title, summary, rating, installs, iconBase64, accent, link }) {
-  const svg = `
+function getShortDesc(data) {
+  if (data.summary && data.summary.trim().length > 0) {
+    return shorten(data.summary);
+  }
+  if (data.description && data.description.trim().length > 0) {
+    return shorten(data.description);
+  }
+  return "";
+}
+
+function svgContent({ title, summary, rating, installs, iconBase64, accent }) {
+  return `
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="130" role="img">
   <defs>
     <style>
@@ -72,36 +83,36 @@ function svgCard({ title, summary, rating, installs, iconBase64, accent, link })
   </g>
 </svg>
 `.trim();
-
-  const b64 = Buffer.from(svg).toString("base64");
-  const imgSrc = `data:image/svg+xml;base64,${b64}`;
-
-  return `<a href="${link}"><img src="${imgSrc}" alt="${title} – Google Play card" /></a>`;
 }
 
 async function generate() {
-  const cards = [];
+  await fs.mkdir(CARDS_DIR, { recursive: true });
+
+  const cardRefs = []; // referências para inserir no README
 
   for (const app of APPS) {
     try {
       const data = await gplay.app({ appId: app.id, country: "us", lang: "en" });
       const iconBase64 = await fetchIconBase64(data.icon);
-      const card = svgCard({
-        title: sanitize(data.title),
-        summary: shorten(data.summary || data.description),
-        rating: data.score ? data.score.toFixed(1) : null,
-        installs: data.installs,
-        iconBase64,
-        accent: app.accent,
-        link: app.link
-      });
-      cards.push(card);
+      const title = sanitize(data.title);
+      const summary = getShortDesc(data);
+      const rating = data.score ? data.score.toFixed(1) : null;
+      const installs = data.installs;
+
+      const svg = svgContent({ title, summary, rating, installs, iconBase64, accent: app.accent });
+      const filename = `${app.id}.svg`;
+      const filePath = path.join(CARDS_DIR, filename);
+      await fs.writeFile(filePath, svg, "utf8");
+
+      // referência para o README
+      const ref = `<a href="${app.link}"><img src="./${CARDS_DIR}/${filename}" alt="${title} – Google Play card" /></a>`;
+      cardRefs.push(ref);
     } catch (e) {
       console.error(`Error for app ${app.id}:`, e);
     }
   }
 
-  const block = cards.join("\n\n");
+  const block = cardRefs.join("\n\n");
 
   const readme = await fs.readFile(README, "utf8");
   const start = readme.indexOf(BEGIN);
