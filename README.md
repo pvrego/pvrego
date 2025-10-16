@@ -30,7 +30,7 @@ Here I share projects focused on:
 
 Check out the pinned repositories to explore ongoing and released projects.  
 
-### 📱 Apps Published on Google Play
+### 📱 [Apps Published on Google Play](https://play.google.com/store/apps/dev?id=6270593872046731867)
 
 - <img src="https://github.com/user-attachments/assets/5754e421-031d-48dd-9b49-86751c2c960e" width="18"> **[Resus](https://play.google.com/store/apps/details?id=com.quantingo.resus)** — advanced vital-signs simulator for emergency and clinical training  
 - <img src="https://github.com/user-attachments/assets/5754e421-031d-48dd-9b49-86751c2c960e" width="18"> **[Resus Prime](https://play.google.com/store/apps/details?id=com.quantingo.resusprime)** — lifetime edition of Resus classic with all features unlocked, no ads, no subscriptions, and priority support  
@@ -38,7 +38,7 @@ Check out the pinned repositories to explore ongoing and released projects.
 - <img src="https://github.com/user-attachments/assets/b48c2e46-9570-49bb-a379-0ac63a040f97" width="18"> **[Eco Brick](https://play.google.com/store/apps/details?id=com.quantingo.tijoloecologico)** — sustainable construction calculator and eco-material estimator  
 - <img src="https://github.com/user-attachments/assets/b48c2e46-9570-49bb-a379-0ac63a040f97" width="18"> **[Eco Brick Premium](https://play.google.com/store/apps/details?id=com.quantingo.tijoloecologicopremium)** — extended edition with detailed analytics and pro features  
 
-### 🎮 Games Published on Google Play
+### 🎮 [Games Published on Google Play](https://play.google.com/store/apps/dev?id=6270593872046731867)
 
 - <img src="https://github.com/user-attachments/assets/739f4899-2a20-4ebb-bde4-13c2765a89d2" width="18"> **[Fun Math](https://play.google.com/store/apps/details?id=com.quantingo.matematicadivertida)** — fun math games for children and educational learning  
 - <img src="https://github.com/user-attachments/assets/88a45f3d-fd3b-4c42-8c8a-f01ae3ea45e2" width="18"> **[Space Escape](https://play.google.com/store/apps/details?id=com.quantingo.spaceescape)** — retro pixel-space adventure game  
