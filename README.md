@@ -30,49 +30,18 @@ Here I share projects focused on:
 
 Check out the pinned repositories to explore ongoing and released projects.  
 
-### 📱 Published on Google Play
+### 📱 Apps Published on Google Play
 
-<!-- BEGIN:GOOGLEPLAY_CARDS -->
+- <img src="https://github.com/user-attachments/assets/5754e421-031d-48dd-9b49-86751c2c960e" width="18"> **[Resus](https://play.google.com/store/apps/details?id=com.quantingo.resus)** — advanced vital-signs simulator for emergency and clinical training  
+- <img src="https://github.com/user-attachments/assets/5754e421-031d-48dd-9b49-86751c2c960e" width="18"> **[Resus Prime](https://play.google.com/store/apps/details?id=com.quantingo.resusprime)** — lifetime edition of Resus classic with all features unlocked, no ads, no subscriptions, and priority support  
+- <img src="https://github.com/user-attachments/assets/dbb13fc6-0c9b-4021-b73f-b76e66e29350" width="18"> **[Sonia AI](https://play.google.com/store/apps/details?id=com.quantingo.sonia)** — on-device AI music generator with retro synthesis and full offline privacy  
+- <img src="https://github.com/user-attachments/assets/b48c2e46-9570-49bb-a379-0ac63a040f97" width="18"> **[Eco Brick](https://play.google.com/store/apps/details?id=com.quantingo.tijoloecologico)** — sustainable construction calculator and eco-material estimator  
+- <img src="https://github.com/user-attachments/assets/b48c2e46-9570-49bb-a379-0ac63a040f97" width="18"> **[Eco Brick Premium](https://play.google.com/store/apps/details?id=com.quantingo.tijoloecologicopremium)** — extended edition with detailed analytics and pro features  
 
-<div align="center" style="display:flex;flex-wrap:wrap;justify-content:center;gap:12px;">
+### 🎮 Games Published on Google Play
 
-  <a href="https://play.google.com/store/apps/details?id=com.quantingo.resus" style="text-decoration:none;color:inherit;">
-    <div style="width:340px;background:#0d1117;border:1px solid #30363d;border-radius:10px;padding:14px;display:flex;align-items:center;gap:12px;">
-      <img src="https://github.com/user-attachments/assets/80804db6-a34c-4752-9ecd-3db60c656541" alt="Resus" style="width:60px;height:60px;border-radius:8px;">
-      <div style="flex:1;">
-        <div style="font-weight:600;color:#00FFA8;font-size:16px;">Resus</div>
-        <div style="font-size:13px;color:#c9d1d9;margin-top:4px;">Advanced vital-signs simulator for emergency and clinical training.</div>
-        <div style="margin-top:6px;font-size:12px;"><span style="background:#21262d;padding:3px 8px;border-radius:6px;color:#8b949e;margin-right:4px;">App</span><span style="background:#21262d;padding:3px 8px;border-radius:6px;color:#8b949e;margin-right:4px;">Medical</span><span style="background:#21262d;padding:3px 8px;border-radius:6px;color:#8b949e;margin-right:4px;">Simulator</span></div>
-      </div>
-    </div>
-  </a>
-
-
-  <a href="https://play.google.com/store/apps/details?id=com.quantingo.resusprime" style="text-decoration:none;color:inherit;">
-    <div style="width:340px;background:#0d1117;border:1px solid #30363d;border-radius:10px;padding:14px;display:flex;align-items:center;gap:12px;">
-      <img src="https://play-lh.googleusercontent.com/7KMS3V7vdrIeqTisqEwjBqSOGEmu8Zq7Cnuc1ISgO7MtQKk8Qb3i2uJQWmWlmZsC_g=w240-h480" alt="Resus Prime" style="width:60px;height:60px;border-radius:8px;">
-      <div style="flex:1;">
-        <div style="font-weight:600;color:#AA88FF;font-size:16px;">Resus Prime</div>
-        <div style="font-size:13px;color:#c9d1d9;margin-top:4px;">Premium lifetime edition of Resus — all features unlocked, no ads, no subscriptions.</div>
-        <div style="margin-top:6px;font-size:12px;"><span style="background:#21262d;padding:3px 8px;border-radius:6px;color:#8b949e;margin-right:4px;">Paid</span><span style="background:#21262d;padding:3px 8px;border-radius:6px;color:#8b949e;margin-right:4px;">Medical</span><span style="background:#21262d;padding:3px 8px;border-radius:6px;color:#8b949e;margin-right:4px;">Training</span></div>
-      </div>
-    </div>
-  </a>
-
-
-  <a href="https://play.google.com/store/apps/details?id=com.quantingo.sonia" style="text-decoration:none;color:inherit;">
-    <div style="width:340px;background:#0d1117;border:1px solid #30363d;border-radius:10px;padding:14px;display:flex;align-items:center;gap:12px;">
-      <img src="https://play-lh.googleusercontent.com/JzN9vP7wC5Mzf1hBzLMeUw3ufp2gZ9rF3FjAZzFf-FmSBjqBaTlfKhEmw6hW8SCC9Q=w240-h480" alt="Sonia AI" style="width:60px;height:60px;border-radius:8px;">
-      <div style="flex:1;">
-        <div style="font-weight:600;color:#FFAA00;font-size:16px;">Sonia AI</div>
-        <div style="font-size:13px;color:#c9d1d9;margin-top:4px;">On-device AI music generator with retro synthesis and full offline privacy.</div>
-        <div style="margin-top:6px;font-size:12px;"><span style="background:#21262d;padding:3px 8px;border-radius:6px;color:#8b949e;margin-right:4px;">AI</span><span style="background:#21262d;padding:3px 8px;border-radius:6px;color:#8b949e;margin-right:4px;">Music</span><span style="background:#21262d;padding:3px 8px;border-radius:6px;color:#8b949e;margin-right:4px;">Generator</span></div>
-      </div>
-    </div>
-  </a>
-</div>
-
-<!-- END:GOOGLEPLAY_CARDS -->
+- <img src="https://github.com/user-attachments/assets/739f4899-2a20-4ebb-bde4-13c2765a89d2" width="18"> **[Fun Math](https://play.google.com/store/apps/details?id=com.quantingo.matematicadivertida)** — fun math games for children and educational learning  
+- <img src="https://github.com/user-attachments/assets/88a45f3d-fd3b-4c42-8c8a-f01ae3ea45e2" width="18"> **[Space Escape](https://play.google.com/store/apps/details?id=com.quantingo.spaceescape)** — retro pixel-space adventure game  
 
 ### 🚀 Featured Projects  
 
