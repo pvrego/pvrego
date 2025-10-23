@@ -63,6 +63,9 @@ Check out the pinned repositories to explore ongoing and released projects.
 <a href="https://github.com/RegoDefies/Coffee-Codex-Cortex-pub">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=Coffee-Codex-Cortex-pub&theme=monokai" />
 </a>
+<a href="https://github.com/RegoDefies/Speech2Text">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=regodefies&repo=Speech2Text&theme=radical" />
+</a>
 
 ---
 
