@@ -40,6 +40,7 @@ Check out the pinned repositories to explore ongoing and released projects.
 
 ### 🎮 [Games Published on Google Play](https://play.google.com/store/apps/dev?id=6270593872046731867)
 
+- <img src="https://github.com/user-attachments/assets/c1f6a76e-7d0c-4d99-8390-b68514d75143" width="18"> **[Kaeru Hero](https://play.google.com/store/apps/details?id=com.quantingo.kaeruhero)** — a dark platform game where a simple frog heeds the call and begins a legendary journey
 - <img src="https://github.com/user-attachments/assets/739f4899-2a20-4ebb-bde4-13c2765a89d2" width="18"> **[Fun Math](https://play.google.com/store/apps/details?id=com.quantingo.matematicadivertida)** — fun math games for children and educational learning  
 - <img src="https://github.com/user-attachments/assets/88a45f3d-fd3b-4c42-8c8a-f01ae3ea45e2" width="18"> **[Space Escape](https://play.google.com/store/apps/details?id=com.quantingo.spaceescape)** — retro pixel-space adventure game  
 
